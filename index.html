@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SignUp</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+		rel="stylesheet">
+	<style>
+		body {
+			font-family: 'DM Sans', sans-serif;
+		}
+	</style>
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="h-[100vh] flex justify-center items-center flex-wrap ">
+	<section class="w-[30%] bg-[#F1FFF0]  shadow-xl rounded-[20px] p-4 border-2">
+		<h1 class="text-xl font-bold text-center">Create account</h1>
+		<form action="" class="pt-[20px] pl-[30px] pb-[20px] flex  flex-col gap-1 flex-wrap">
+			<label for="name" class="flex flex-col  text-[black] text-l font-medium text gap-1 ">
+				First Name
+			</label>
+			<input type="text" placeholder="Enter your First Name here"
+				class="border border-[gray] rounded outline-none pl-[10px] bg-[transparent] w-[70%] ml-[30px]" required>
+			<label for="name" class="flex flex-col  text-[black] text-l font-medium text gap-1 ">
+				Last Name
+			</label>
+			<input type="text" placeholder="Enter your Last Name here"
+				class="border border-[gray] rounded outline-none pl-[10px] bg-[transparent] w-[70%] ml-[30px]" required>
+			<label for="name" class="flex flex-col  text-[black] text-l font-medium text gap-1 ">
+				Email
+			</label>
+			<input type="email" placeholder="Enter your Email here"
+				class="border border-[gray] rounded outline-none pl-[10px] bg-[transparent] w-[70%] ml-[30px]" required>
+			<label for="name" class="flex flex-col  text-[black] text-l font-medium text gap-1 ">
+				Password
+			</label>
+			<input type="password" placeholder="Enter your Password here"
+				class="border border-[gray] rounded outline-none pl-[10px] bg-[transparent] w-[70%] ml-[30px]" required>
+			<label for="name" class="flex flex-col  text-[black] text-l font-medium text gap-1 ">
+				Confirm Password
+			</label>
+			<input type="password" placeholder="Confrim Password"
+				class="border border-[gray] rounded outline-none pl-[10px] bg-[transparent] w-[70%] ml-[30px]" required>
+			<button class=" border w-[30%] p-[10px] rounded-[8px] font-bold m-auto mt-[10px]">Register</button>
+			<!-- <input type="submit" value="Register" class="border w-[30%] p-[10px] rounded-[8px] m-auto mt-[20px]"> -->
+		</form>
+
+		<p class="text-center">Already have an account <a href="./Login.html" class="font-bold text-[#445EE2]">Login</a></p>
+	</section>
+</body>
+
+</html>
